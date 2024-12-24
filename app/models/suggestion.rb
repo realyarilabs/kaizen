@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
+# User model
 class Suggestion < ApplicationRecord
   belongs_to :user
-    # length: { minimum: 1 , maximum: 100 } ?
-  validates :title, presence: true
-  validates :description, presence: true
-  validates :solution, presence: true
+  has_many :comments, dependent: :delete_all
+  has_many :votes, dependent: :delete_all
+  has_and_belongs_to_many :categories
+  has_and_belongs_to_many :tags
 end
