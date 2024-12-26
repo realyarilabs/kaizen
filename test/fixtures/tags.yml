@@ -1,7 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# test/fixtures/tags.yml
 
-one:
-  name: MyString
+rh:
+  name: rh
 
-two:
-  name: MyString
+well-being:
+  name: well-being
+
+general:
+  name: general
