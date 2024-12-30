@@ -1,17 +1,1 @@
-require:
-  - rubocop-rails
-  - rubocop-performance
-
-AllCops:
-  TargetRubyVersion: 3.3.5
-  NewCops: enable
-  Exclude:
-    - "db/**/*"
-    - "config/**/*"
-    - "script/**/*"
-    - "bin/{rails,rake}"
-    - "lib/tasks/**/*"
-    - "bin/**/*"
-
-Rails/I18nLocaleTexts:
-  Enabled: false
+inherit_gem: { rubocop-rails-omakase: rubocop.yml }
