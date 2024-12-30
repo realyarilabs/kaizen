@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# test/fixtures/tags.yml
+
+rh:
+  name: rh
+
+well-being:
+  name: well-being
+
+general:
+  name: general

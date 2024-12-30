@@ -1,0 +1,50 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# test/fixtures/suggestions.yml
+
+one:
+  title: Employee Well-being
+  description: Implement a wellness program for employees
+  root_cause: High stress levels
+  solution: Introduce regular wellness activities and mental health support
+  benefits: Improved employee morale and productivity
+  user: admin
+
+two:
+  title: Marketing Strategy
+  description: Launch a new marketing campaign
+  root_cause: Low company visibility
+  solution: Utilize social media platforms
+  benefits: Increased company visibility
+  user: ricardo
+
+three:
+  title: Training Program
+  description: Develop a training program for new hires
+  root_cause: Lack of onboarding process
+  solution: Create comprehensive training materials
+  benefits: Faster onboarding
+  user: filipe
+
+four:
+  title: Stretching Breaks
+  description: Implement 5-minute stretching breaks for employees
+  root_cause: Sedentary work environment
+  solution: Schedule regular stretching sessions throughout the day
+  benefits: Reduced physical strain and increased energy levels
+  user: susana
+
+five:
+  title: Design Feedback
+  description: Collect feedback on the new design
+  root_cause: Unclear user preferences
+  solution: Conduct user surveys and usability tests
+  benefits: Improved user satisfaction
+  user: ricardo
+
+six:
+  title: Innovation Day
+  description: Organize an innovation day for the development team
+  root_cause: Lack of new ideas
+  solution: Dedicate a day to brainstorming
+  benefits: Increased innovation and team engagement
+  user: filipe
