@@ -1,11 +1,40 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  user: one
+  user: susana
   suggestion: one
   vote: 1
 
 two:
-  user: two
+  user: filipe
+  suggestion: one
+  vote: 1
+
+three:
+  user: susana
   suggestion: two
   vote: 1
+
+four:
+  user: admin
+  suggestion: two
+  vote: -1
+
+five:
+  user: admin
+  suggestion: three
+  vote: 1
+
+six:
+  user: ricardo
+  suggestion: three
+  vote: -1
+
+seven:
+  user: filipe
+  suggestion: four
+  vote: 1
+
+eight:
+  user: admin
+  suggestion: four
+  vote: -1

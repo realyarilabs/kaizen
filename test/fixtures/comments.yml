@@ -1,11 +1,21 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
+# test/fixtures/comments.yml
 one:
-  content: MyText
+  content: Great idea!
   suggestion: one
-  user: one
+  user: filipe
 
 two:
-  content: MyText
+  content: This will boost our visibility.
   suggestion: two
-  user: two
+  user: ricardo
+
+three:
+  content: I support this idea.
+  suggestion: four
+  user: susana
+
+four:
+  content: I'm in need of this!
+  suggestion: four
+  user: susana
