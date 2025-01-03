@@ -16,7 +16,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Monserrat', ...defaultTheme.fontFamily.sans],
-      }, colors: {
+      },
+      colors: {
         'c-white': 'rgba(255, 255, 255, 1)',
         'c-dark-8': 'rgba(229, 231, 235, 1)',
         'c-dark-6': 'rgba(156, 163, 175, 1)',
@@ -24,7 +25,7 @@ module.exports = {
         'c-main-primary': 'rgba(13, 143, 231, 1)',
         'c-main-secondary': 'rgba(89, 95, 239, 1)',
         'c-main-primary-text': 'rgba(0, 50, 84, 1)',
-        'c-main-secondary-text':'rgba(99, 115, 129, 1)',
+        'c-main-secondary-text': 'rgba(99, 115, 129, 1)',
         'c-main-primary-bg': 'rgba(0, 18, 31, 1)',
         'c-main-secondary-bg': 'rgba(230, 241, 249, 1)',
         'c-main-primary-hover': 'rgba(0, 50, 84, 0.16)',
@@ -39,7 +40,7 @@ module.exports = {
   },
   plugins: [
     // require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
+    // require('@tailwindcss/typography'),
     // require('@tailwindcss/container-queries'),
     // require('flowbite/plugin')
   ]
