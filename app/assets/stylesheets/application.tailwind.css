@@ -39,15 +39,18 @@
     @apply font-sans text-xl font-semibold leading-[1.875rem];
   }
 
-  .body-extra-small-text-regular {
+}
+
+@layer components {
+  .text-xs-regular {
     @apply font-sans text-xs font-normal leading-5;
   }
 
-  .body-medium-regular {
+  .text-md-regular {
     @apply font-sans text-base font-normal leading-6;
   }
 
-  .body-medium-medium {
+  .text-md-medium {
     @apply font-sans text-base font-medium leading-6;
   }
 }
