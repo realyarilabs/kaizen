@@ -1,0 +1,38 @@
+<nav class="fixed top-0 left-64 w-[calc(100%-16rem)] h-16 p-2 bg-c-white">
+  <div class="flex items-center justify-between space-x-2.5 rtl:space-x-reverse">
+    <div class="h-8 w-28 py-2 pl-3.5 hidden md:block text-md-regular text-c-dark-4 text-left">
+        <span>current page</span>
+    </div>
+    <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center md:hidden">
+      <span class="sr-only">Open sidebar</span>
+      <%= image_tag 'menu-burger.png', class: "size-10" %>
+    </button>
+    <div class="flex items-center">
+      <div class="flex items-center ms-3">
+        <div>
+          <button type="button" class="flex items-center justify-center size-10 bg-c-accents-primary rounded-full" aria-expanded="false" data-dropdown-toggle="dropdown-user">
+            <span class= 'text-md-medium text-c-white'>F.L</span>
+          </button>
+        </div>
+        <div class="z-50 hidden my-4 text-base list-none bg-gray-100 divide-y divide-gray-100 rounded shadow" id="dropdown-user">
+          <div class="px-4 py-3" role="none">
+            <p class="text-sm" role="none">
+              Full Name
+            </p>
+            <p class="text-sm font-medium truncate" role="none">
+              email@example.com
+            </p>
+          </div>
+          <ul class="py-1" role="none">
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem">Profile</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem">Sign out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
