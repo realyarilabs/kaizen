@@ -4,12 +4,50 @@
 @import "flowbite";
 
 
-/*
-
-@layer components {
+/* @layer components {
+  .btn-default-primary {
+    @apply py-2 px-6 width-[6.625rem];
+  }
   .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+    @apply .btn-default-primary bg-blue-200;
+  }
+} */
+
+@layer base {
+  h1 {
+    @apply font-sans text-[2.5rem] font-bold leading-[4.5rem] hover:opacity-15;
+    /* 40px and 72px does not exist in Tailwind */
+  }
+
+  h2 {
+    @apply font-sans text-[2rem] font-bold leading-10;
+  }
+
+  h3 {
+    @apply font-sans text-[1.75rem] font-bold leading-[2.125rem];
+  }
+
+  h4 {
+    @apply font-sans text-[1.625rem] font-bold leading-[2.375rem];
+  }
+
+  h5 {
+    @apply font-sans text-2xl font-semibold leading-10;
+  }
+
+  h6 {
+    @apply font-sans text-xl font-semibold leading-[1.875rem];
+  }
+
+  .body-extra-small-text-regular {
+    @apply font-sans text-xs font-normal leading-5;
+  }
+
+  .body-medium-regular {
+    @apply font-sans text-base font-normal leading-6;
+  }
+
+  .body-medium-medium {
+    @apply font-sans text-base font-medium leading-6;
   }
 }
-
-*/

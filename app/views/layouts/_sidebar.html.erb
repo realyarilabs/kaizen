@@ -1,35 +1,114 @@
-<aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0" aria-label="Sidebar">
+<aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full bg-c-white border-r border-r-c-dark-8 bg-opacity-0 sm:translate-x-0" aria-label="Sidebar">
   <div class="h-full overflow-y-auto bg-white">
-    <div class="flex items-center justify-center h-16 py-2">
-      <a href="https://www.yarilabs.com/">
-        <%= image_tag 'logo.png', class: 'h-12 w-full py-2 px-5', alt: 'YariLabs Logo' %>
-      </a>
+    <!-- Section Logo -->
+    <div class="w-64 h-16 flex items-center justify-center py-2">
+      <div class="w-64 h-12 flex items-center gap-2 px-5 py-2">
+        <span>
+          <%= image_tag 'logomark.svg', class: 'w-6 h-6' %>
+        </span>
+        <a href="#">
+          <%= image_tag 'github.svg', class: 'w-[8.3125rem] h-[1.875rem]' %>
+        </a>
+      </div>
     </div>
-    <!-- substitle Dashbord-->
-    <div class="flex flex-col items-start pb-2 pt-5">
-      <span class="text-xs font-normal leading-4 tracking-[0.4px] text-left pl-4 py-2">DASHBOARD</span>
+    <!-- Section 'Dashboard' -->
+    <div class="w-64 h-16 flex items-center pt-5 pb-2">
+      <div class="w-full h-9 flex items-center gap-4">
+        <!-- SVG Line2 -->
+        <%= image_tag 'line.svg', class: 'w-[1rem] h-0 border-t border-t-c-dark-8' %>
+        <span class="body-extra-small-text-regular tracking-wide text-c-dark-6">DASHBOARD</span>
+      </div>
     </div>
-    <div class="space-y-2 font-medium pb-2 px-3">
-      <ul>
-        <li class="py-2 pl-4 pr-3 rounded-r-[3]">
-          <a href="#" class="flex items-center p-2 rounded-lg hover:bg-gray-200">
-            <%= image_tag 'list.jpg', class: 'h-5 w-4 pt-0.5 pl-1 b-2', alt: 'List icon' %>
-            <span class="flex-1 ms-3 whitespace-nowrap">Suggestion List</span>
-          </a>
-        </li>
-        <li class="py-2 pl-4 pr-3 rounded-r-[3]">
-          <a href="#" class="flex items-center p-2 rounded-lg hover:bg-gray-200">
-            <%= image_tag 'unlock.jpg', class: 'h-5 w-4 pt-0.5 pl-1 b-2', alt: 'Unlock icon' %>
-            <span class="flex-1 ms-3 whitespace-nowrap">Users & Roles</span>
-          </a>
-        </li>
-        <li class="py-2 pl-4 pr-3 rounded-r-[3]">
-          <a href="#" class="flex items-center p-2 rounded-lg hover:bg-gray-200">
-            <%= image_tag 'exit.png', class: 'h-5 w-4 pt-0.5 pl-1 b-2', alt: 'exit icon' %>
-            <span class="flex-1 ms-3 whitespace-nowrap">Sign Out</span>
-          </a>
-        </li>
-      </ul>
+    <!-- Section LINKS -->
+    <div class="w-64 h-60 px-3 gap-1.5">
+      <!-- Link Homepage -->
+      <div class="w-[14.75rem] h-[2.625rem] flex items-center py-2 pr-3 pl-4 rounded-r-[3.125rem]">
+        <!-- icon -->
+        <div class="w-8 h-6 flex items-center justify-start">
+          <div class="w-[1.125rem] h-[1.125rem] ml-1">
+            <%= image_tag 'dashboard.svg', class: 'w-full h-full' %>
+          </div>
+        </div>
+        <!-- text -->
+        <div class="w-44 h-8 px-0 py-1">
+          <a href="#" class="body-medium-regular text-c-dark-4 text-left"> Homepage</a>
+        </div>
+      </div>
+      <!-- Link Suggestion List -->
+      <div class="w-[14.75rem] h-[2.625rem] flex items-center py-2 pr-3 pl-4 rounded-r-[3.125rem]">
+        <!-- icon -->
+        <div class="w-8 h-6 flex items-center justify-start">
+          <div class="w-[1.125rem] h-[1.125rem] ml-1">
+            <%= image_tag 'list.svg', class: 'w-full h-full' %>
+          </div>
+        </div>
+        <!-- text -->
+        <div class="w-44 h-8 px-0 py-1">
+          <div href="#" class="body-medium-regular text-c-dark-4 text-left"> Suggestion List</div>
+        </div>
+      </div>
+      <!-- Link Challenges -->
+      <div class="w-[14.75rem] h-[2.625rem] flex items-center py-2 pr-3 pl-4 rounded-r-[3.125rem]">
+        <!-- icon -->
+        <div class="w-8 h-6 flex items-center justify-start">
+          <div class="w-[1.125rem] h-[1.125rem] ml-1">
+            <%= image_tag 'challenges.svg', class: 'w-full h-full' %>
+          </div>
+        </div>
+        <!-- text -->
+        <div class="w-44 h-8 px-0 py-1">
+          <a href="#" class="body-medium-regular text-c-dark-4 text-left">Challenges</a>
+        </div>
+      </div>
+      <!-- Link Resources -->
+      <div class="w-[14.75rem] h-[2.625rem] flex items-center py-2 pr-3 pl-4 rounded-r-[3.125rem]">
+        <!-- icon -->
+        <div class="w-8 h-6 flex items-center justify-start">
+          <div class="w-[1.125rem] h-[1.125rem] ml-1">
+            <%= image_tag 'resources.svg', class: 'w-full h-full' %>
+          </div>
+        </div>
+        <!-- text -->
+        <div class="w-44 h-8 px-0 py-1">
+          <a href="#" class="body-medium-regular text-c-dark-4 text-left">Resources</a>
+        </div>
+      </div>
+      <!-- Link Nav 4 -->
+      <div class="w-[14.75rem] h-[2.625rem] flex items-center py-2 pr-3 pl-4 rounded-r-[3.125rem]">
+        <!-- icon -->
+        <div class="w-8 h-6 flex items-center justify-start">
+          <div class="w-[1.125rem] h-[1.125rem] ml-1">
+            <%= image_tag 'nav.svg', class: 'w-full h-full' %>
+          </div>
+        </div>
+        <!-- text -->
+        <div class="w-44 h-8 px-0 py-1">
+          <a href="#" class="body-medium-regular text-c-dark-4 text-left">Nav</a>
+        </div>
+      </div>
+    </div>
+    <!-- Section settings -->
+    <div class="w-64 h-16 flex items-center pt-5 pb-2">
+      <div class="w-full h-9 flex items-center gap-4">
+        <!-- SVG Line2 -->
+        <%= image_tag 'line.svg', class: 'w-[1rem] h-0 border-t border-t-c-dark-8' %>
+        <span class="body-extra-small-text-regular tracking-wide text-c-dark-6">SETTINGS & MANAGE</span>
+      </div>
+    </div>
+    <!-- LINK -->
+    <div class= "w-64 h-12 px-3 pb-2 gap-1.5">
+      <div class="w-full h-11 flex items-center rounded-lg pr-3 pl-4 py-2 bg-c-main-secondary-bg">
+        <!-- icon -->
+        <div class="w-8 h-6 flex items-center justify-start">
+          <div class="w-[1.125rem] h-[1.125rem] ml-1">
+            <%= image_tag 'unlock.svg', class: 'w-full h-full' %>
+          </div>
+        </div>
+        <!-- text -->
+        <div class="w-44 h-8 px-0 py-1">
+          <a href="#" class="body-medium-medium text-c-main-primary-text text-left">Users & Roles</a>
+        </div>
+      </div>
     </div>
   </div>
 </aside>
