@@ -31,6 +31,8 @@ module.exports = {
         'c-main-secondary-hover': 'rgba(89, 95, 239, 0.1)',
         'c-main-primary-btn-hover': 'rgba(19, 127, 200, 1)',
         'c-main-primary-btn-hover': 'rgba(80, 85, 210, 1)',
+        'c-accents-primary': 'rgba(13, 198, 231, 1)',
+
       }
 
     }
